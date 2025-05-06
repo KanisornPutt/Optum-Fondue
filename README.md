@@ -2,14 +2,14 @@
 OPTUM is an AI-powered language agent designed to streamline the analysis of public complaints from the Traffy Fondue platform, a widely-used system in Bangkok for reporting municipal issues. Traditional keyword search is ineffective with unstructured, citizen-generated content, so we built a system leveraging advanced NLP techniques like contextual embedding and Retrieval-Augmented Generation (RAG) to understand, retrieve, and summarize data effectively.
 
 ## Project Summary
-OPTUM enables real-time insights into public concerns by embedding semantic meaning into reports and queries. It helps government officials and city planners detect patterns, spot trends, and take action—without manual filtering.
+OPTUM enables real-time insights into public concerns by embedding semantic meaning into reports and queries. It helps detect patterns, spot trends, and take action—without manual filtering.
 - Embeds reports and queries into vectors for semantic understanding.
 - Retrieves relevant entries using Qdrant vector search.
 - Summarizes insights with LLM (Gemini 2.0 Flash).
 - Enhances transparency and speeds up public service responses.
 
 ## Tech Stack
-- **Dataset**	700K+ reports from Traffy Fondue, plus 2,000+ via API
+- **Dataset** reports from Traffy Fondue
 - **Embedding** Model	Fine-tuned clicknext/phayathaibert  **(KanisornPutta/TrentIsNotLeavingBERT)**
 - **Vector** **DB**	Qdrant
 - **Backend**	FastAPI
@@ -31,9 +31,9 @@ OPTUM enables real-time insights into public concerns by embedding semantic mean
 - Metadata (e.g., ticket ID, address) fetched for UI display
 
 ### Data Visualization
-Ticket counts by type and time
-Heatmap, scatter map, and clustering
-Intuitive web interface for filtering and exploration
+- Ticket counts by type and time
+- Heatmap, scatter map, and clustering
+- Intuitive web interface for filtering and exploration
 
 ![image](https://github.com/user-attachments/assets/66a10e50-d15c-45aa-9244-67d6bc28245d)
 
