@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  airflow:
+    build: .                 
+    image: dsde-airflow
+    volumes:
+      - ./airflow:/opt/airflow
+      - ./data:/opt/data
+    ports:
+      - "8080:8080"
+    
+    command: airflow standalone
