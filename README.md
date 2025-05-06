@@ -19,10 +19,10 @@ OPTUM enables real-time insights into public concerns by embedding semantic mean
 
 ## Features
 ### Automated ETL Pipeline (via Airflow DAGs)
-- fetch_data: Pulls recent complaints from Traffy API
-- clean_data: Prepares data for embedding
-- embedding_data: Converts text to semantic vectors
-- save_to_qdrant: Uploads to Qdrant vector DB
+- `fetch_data`: Pulls recent complaints from Traffy API
+- `clean_data`: Prepares data for embedding
+- `embedding_data`: Converts text to semantic vectors
+- `save_to_qdrant`: Uploads to Qdrant vector DB
 
 ### Query Handling
 - User query embedded
@@ -34,6 +34,9 @@ OPTUM enables real-time insights into public concerns by embedding semantic mean
 Ticket counts by type and time
 Heatmap, scatter map, and clustering
 Intuitive web interface for filtering and exploration
+
+![image](https://github.com/user-attachments/assets/66a10e50-d15c-45aa-9244-67d6bc28245d)
+
 
 ## References
 - Traffy Fondue API: https://www.traffy.in.th
